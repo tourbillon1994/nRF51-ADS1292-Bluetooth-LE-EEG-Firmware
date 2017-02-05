@@ -494,7 +494,7 @@ typedef enum
 #define ADS1291_2_REGDEFAULT_LOFF				0x00			///< 95%/5% LOFF comparator threshold, DC lead-off at 6 nA	
 #define ADS1291_2_REGDEFAULT_CH1SET			0x60			///< Channel on, G=12, normal electrode
 	/** @TODO! **/
-#define ADS1291_2_REGDEFAULT_CH2SET			0x91			///< Channel off, G=1, input short
+#define ADS1291_2_REGDEFAULT_CH2SET			0x60			///< Channel off, G=1, input short
 #define ADS1291_2_REGDEFAULT_RLD_SENS 	0x23			///< Chop @ fmod/16, RLD buffer on, LOFF off, RLD derivation from CH1 P+N
 #define ADS1291_2_REGDEFAULT_LOFF_SENS	0x00			///< Current source @ IN+, sink @ IN-, all LOFF channels disconnected
 #define ADS1291_2_REGDEFAULT_LOFF_STAT	0x00			///< Fmod = fclk/4 (for fclk = 512 kHz)
